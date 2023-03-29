@@ -1,0 +1,128 @@
+.header{
+    height: 50px;
+    background-color: aqua;
+    padding: 30px;
+}
+.header h1:{
+    text-align: center;
+}
+
+
+.header2{
+    width: 100%;
+    height: 30px;
+    background-color:blueviolet;
+    padding: 5px;
+    
+}
+.header2 ul{
+list-style-type: none;
+}
+.header2 ul li{
+    display:inline;
+}
+.left1{
+    width: 90px;
+    height: 100px;
+    padding: 5px;
+    background-color: brown;
+}
+
+.left1 ul{
+    list-style-type: none;
+
+}
+.left1 ul li{
+    display: block;
+}
+.contain1{
+    background-color: aquamarine;
+    width: 900px;
+    height: 300px;
+    position: absolute;
+    left: 110px;
+    top: 160px;
+    padding: 5px;
+
+}
+.content11{
+    background-color: blue;
+    width: 900px;
+    height: 100px;
+
+}
+.content11 pre{
+    font-family: 'Times New Roman', Times, serif;
+}
+.content11 h3{
+    text-decoration: underline;
+    color: red;
+    text-align: center;
+}
+.content12{
+    background-color: cadetblue;
+
+}
+.content12 h2{
+    text-transform: uppercase;
+}
+.content13{
+    background-color: beige;
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top:1px;
+    left: 910px;
+}
+.content13 img{
+    width: 200px;
+    height: 250px;
+
+}
+.footer{
+     background-color: coral;
+     height: 50px;
+     width: 900px;
+}
+.head4{
+    background-color: blueviolet;
+    height: 50px;
+}
+.head4 ul {
+    list-style-type: none;
+}
+.head4 ul li{
+    display: inline-block;
+}
+.child41{
+    background-color: azure;
+    width: 400px;
+    height: 300px;
+    padding: 2px;
+}
+.child41 table{
+    border-collapse: collapse;
+    border-style: double;
+}
+.child41 table td:hover{
+color:red;
+
+}
+.page21{
+    background-color: tomato;
+    height: 100;
+}
+
+    
+ 
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color:  #33adff;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+.head3{
+background-color:blue;
+height:20px;
+}
+.head3 ul li{
+display:inline;}
+</style>
+</head>
+<body>
+
+
+<h2>Contact Page</h2>
+<p>Welcome dear, Here custom is King.</p>
+<div class="head3">
+ <ul>
+           <li> <a href="C:\Users\IRAGENA\Desktop\final project\page1.html"> home</a></li>
+            <li><a id="home" href="C:\Users\IRAGENA\Desktop\final project\page2.html">about</a></li>
+            <li><a href="C:\Users\IRAGENA\Desktop\final project\page5.html">work</a></li>
+            <li><a id="link3" href="C:\Users\IRAGENA\Desktop\final project\page6.html" style="margin:;" >share</a></li>
+            </ul> 
+<div>
+
+<div class="container">
+  <div style="text-align:center">
+    <h2>Contact Us</h2>
+    <p>your oder is very important to us:</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="logo 01.png" style="width:100%">
+    </div>
+    <div class="column">
+      <form action="https://www.w3schools.com/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Rwanda</option>
+          <option value="canada">CONGO</option>
+          <option value="usa">UGANDA</option>
+        </select>
+        <label for="subject">Message</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+
+</body>
+
+<!-- Mirrored from www.w3schools.com/howto/tryit.asp?filename=tryhow_css_contact_section by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 27 Jan 2020 02:39:19 GMT -->
+</html>
